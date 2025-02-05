@@ -42,6 +42,10 @@
                 <x-button class="ms-4">
                     {{ __('Log in') }}
                 </x-button>
+
+                <a href="{{ route('oauth.google') }}" style="margin-top: 0px !important;background: #C84130;color: #ffffff;padding: 8px;border-radius:6px;" class="items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white text-center uppercase tracking-widest hover:bg-gray-700 focus:bg-gray-700 active:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150 ms-4">  
+                    <strong>Login with Google</strong>  
+                </a>  
             </div>
         </form>
     </x-authentication-card>
